@@ -29,7 +29,7 @@ app.get('/about', (req, res) => {
 });
 app.get('/help', (req, res) => {
     res.render('help', {
-        message: 'help full teext aris hiere',
+        message: 'you will get help here',
         title: 'Help Page',
         name: "Vineet"
     });
